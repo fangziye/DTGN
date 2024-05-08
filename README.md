@@ -1,2 +1,3 @@
 # DTGN
 Dynamic Tree-Gating Networks for Efficient Modular Continual Learning
+There is a continual learning framework described in the paper "Dynamic Tree-Gating Networks for Efficient Modular Continual Learning". Our goal is to build an effective continuous learning learner that can accurately identify different task categories, achieve knowledge transfer, and mitigate catastrophic forgetting. As a modular approach, DTGN can be roughly divided into four parts: module initialization, assimilation of new tasks with existing modules, adaptation of existing modules with new knowledge, and module set expansion.  The predictor functions considered in this work consist of modules that may be shared among different, but related tasks.
